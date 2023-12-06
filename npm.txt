@@ -1,0 +1,27 @@
+npm --version
+
+npm i npm@lastes
+
+npm install chalk
+npm i chalk
+npm install
+npm remove bootstrap chalk
+npm i nodemon -D
+
+npm run start
+npm start
+npm run dev
+
+# Instala un paquete globalmente
+npm install nodemen -g
+npm i nodemen -g
+npm remove nodemon -g
+
+# using nodemon with cli
+.\node_modules\.bin/nodemon index.js
+npm i cowsay
+.\node_modules\.bin\cowsay Hello World
+
+# probar modulos solo una vez
+npx cowsay
+npx serve ./public
