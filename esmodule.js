@@ -1,3 +1,5 @@
+// ✅ ES MODULES
+
 // const math = require("./modules/math")
 import math, { add, substract, divide, multiply } from "./modules/math.js";
 

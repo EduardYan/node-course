@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Node Course",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "cowsay": "cowsay NodeJS Course !"
   },
   "author": "EduardYan",

@@ -1,9 +1,9 @@
+// ✅ PROMISES
+
 const { readFile } = require("fs");
 
 
-// espera un resultado bueno y uno malo
-
-// sync
+// 🥉 SYNC
 // readFile("./data/first.txt", "utf-8", (e, data) => {
 //   if (e) {
 //     console.log(e);
@@ -11,7 +11,9 @@ const { readFile } = require("fs");
 //   console.log(data);
 // });
 
+// 🥈 TRANSFORM TO PROMISE
 // function getText(pathFile) {
+//   espera un resultado bueno y uno malo
 //   return new Promise(function (resolve, reject) {
 //     readFile(pathFile, "utf-8", (e, data) => {
 //       if (e) {
@@ -34,21 +36,21 @@ const { readFile } = require("fs");
 //   .then(result => console.log(result))
 //   .catch((e) => console.log(e)); // exepciones capturadas por un solo catch
 
-const getText = (pathFile) => {
-  return new Promise(function (resolve, reject) {
-    readFile(pathFile, "utf-8", (e, data) => {
-      if (e) {
-        // pasando el error
-        reject(e);
-      }
-      // pasando los datos
-      resolve(data);
-    });
-  });
-};
+// const getText = (pathFile) => {
+//   return new Promise(function (resolve, reject) {
+//     readFile(pathFile, "utf-8", (e, data) => {
+//       if (e) {
+//         // pasando el error
+//         reject(e);
+//       }
+//       // pasando los datos
+//       resolve(data);
+//     });
+//   });
+// };
 
 
-// convertir callback en una promesa
+// 🥇 TRANSFORM CALLBACK TO PROMISE
 const { promisify } = require("util");
 // convirtiendo de callback a promesa
 const readFilePromise = promisify(readFile);

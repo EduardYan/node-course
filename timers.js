@@ -1,3 +1,5 @@
+// ✅ TIMERS
+
 // ejecuta despues de cierto tiempo
 // setTimeout(() => {
 //   console.log("hello")

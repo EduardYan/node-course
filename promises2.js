@@ -1,3 +1,7 @@
+// ✅ USING PROMISES FROM FS
+
+// ya no necesitamos convertir la funcion a promesa porque
+// el modulo fs ya nos ofrece eso
 const { readFile } = require("fs/promises");
 
 async function read() {

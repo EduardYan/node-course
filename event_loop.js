@@ -1,5 +1,7 @@
-// console.log("first");
+// ✅ EVENT LOOP
 
+
+// console.log("first");
 // setTimeout(() => {
 //   console.log("second");
 // }, 3000);
@@ -23,7 +25,9 @@ const server = http.createServer((req, res) => {
   }
 
   if (req.url === "/about") {
-    // task block code
+    // <-- tarea con codigo bloqueante, al visitar /about
+    // tambien se bloqueara / porque el hilo principal
+    // de node esta bloqueado por este codigo
     // for(let i = 0; i < 1000; i++) {
     //   console.log(Math.random() * i)
     // }

@@ -1,3 +1,5 @@
+// ✅ STREAMS INTRODUCTION
+
 // const { writeFile } = require("fs/promises");
 // async function createBigFile() {
 //   await writeFile("./data/bigFile.txt", "Hello world".repeat(100000));

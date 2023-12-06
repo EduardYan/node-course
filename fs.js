@@ -17,7 +17,7 @@ const fs = require("fs");
 //   flag: "a", // <-- el flag a es para agregar al archivo
 // });
 
-// ✅ ASYNC
+// ✅ ASYNC using callbacks
 // fs.readFile("./data/first.txt", "utf-8", function (error, data) {
 //   if (error) { // <-- controlando si hay un error
 //     console.log(error);
