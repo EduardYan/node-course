@@ -9,7 +9,8 @@
   "license": "MIT",
   "devDependencies": {
     "cowsay": "^1.5.0",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "standard": "17.1.0"
   },
   "dependencies": {
     "colors": "^1.4.0",

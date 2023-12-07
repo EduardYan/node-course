@@ -1,3 +1,3 @@
-# NodeJS Course
+# NodeJS Course 🥇
 
 ![screenshot](./doc/screenshot.png)

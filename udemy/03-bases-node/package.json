@@ -1,0 +1,15 @@
+{
+  "name": "multiplicar-app",
+  "version": "2.0.0",
+  "description": "Esta es una aplicación de línea de comando",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js -b 5"
+  },
+  "author": "EduardYan",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "yargs": "^11.0.0"
+  }
+}
