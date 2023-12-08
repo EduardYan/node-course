@@ -7,5 +7,5 @@
 
 // ejecuta cada cierto tiempo
 setInterval(() => {
-  console.log("hello");
-}, 2000);
+  console.log('hello')
+}, 2000)

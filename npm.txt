@@ -1,6 +1,6 @@
 npm --version
 
-npm i npm@lastes
+npm i npm@latest
 
 npm install chalk
 npm i chalk
