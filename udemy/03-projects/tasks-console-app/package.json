@@ -1,0 +1,11 @@
+{
+  "name": "tasks-console-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "EduardYan",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "9.2.12"
+  }
+}
