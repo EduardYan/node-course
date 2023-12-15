@@ -1,4 +1,4 @@
-import students from "./students.js";
+import students from './students.js'
 
 // const fullnames = students.map(function (student) {
 //   return `${student.name} ${student.lastname}`
@@ -22,7 +22,7 @@ import students from "./students.js";
 //   }
 // })
 
-//without return
+// without return
 // const newStudents = students.map(student => ({
 //     ...student,
 //     title: `${student.name} - ${student.course}`,
@@ -35,11 +35,11 @@ import students from "./students.js";
 // }))
 // console.log(doubleAge)
 
-//encadenando methods
+// encadenando methods
 const doubleAge = students.map(student => ({
   ...student,
   title: `${student.name} - ${student.course}`,
-  fullname: `${student.name} ${student.lastname}`,
-})).map(student => ({...student, age: student.age * 2}))
+  fullname: `${student.name} ${student.lastname}`
+})).map(student => ({ ...student, age: student.age * 2 }))
 
 console.log(doubleAge)

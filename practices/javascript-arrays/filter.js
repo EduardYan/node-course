@@ -1,6 +1,5 @@
 import students from './students.js'
 
-
 // const developers = []
 // for(let i = 0; i < students.length; i++) {
 //   if(students[i].course === 'Web Development') {
@@ -9,7 +8,7 @@ import students from './students.js'
 // }
 // console.log(developers)
 
-//retorna todos los que cumplieron una condicion
+// retorna todos los que cumplieron una condicion
 // const result = students.filter(function (student) {
 //   if (student.course === 'Web Development') {
 //     return true // <-- indica que si la cumple

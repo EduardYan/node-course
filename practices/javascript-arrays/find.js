@@ -1,4 +1,4 @@
-import students from "./students.js";
+import students from './students.js'
 
 // const result = students.find((student) => {
 //   //obteniendo los estudiantes que conicidan con el nombre Ray
