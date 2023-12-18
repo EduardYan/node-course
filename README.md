@@ -23,10 +23,10 @@ Node nació en el año 2009, por Ryan Doll, y lo creo por las limitaciones que t
 ### Instalar Node 🚀
 Lo recomendable es utilizar la versión LTS, ya que esta versión es la recomendada para la mayoría, es la que están actualizando y la que tiene más soporte. En cambio la actual tiene las ultimas características, pero no es la más estable.
 
-- Forma oficial [https://nodejs.org/en](https://nodejs.org/en)
+- Forma oficial [https://nodejs.org/en](https://nodejs.org/en) 📦
   - Si lo hacemos de la forma oficial bajando un instalar de la página oficial lo que vamos a instalar va ser una vez Node, es decir que nos va instalar una versión de Node en todo nuestro sistema operativo. Y en realidad lo que queremos muchas veces es tener distintas versiones de Node, porque vamos a tener distintos projectos. Una opción puede ser Dockerizar las aplicaciones pero esto es mucho lio. Entonces lo mejor que podemos hacer es utilizar un **administrador de versiones de Node**.
 
-- Forma no oficial
+- Forma no oficial 📦
   - Y el más conocido es **nvm**, pero nosotros vamos a utlizar la siguiente [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm), esta escrito en Rust, y lo instalaremos rápido. Así que instalamos fnm, y luego Rust [https://rust-lang.org/es](https://rust-lang.org/es)
   - Okey, ahora vamos a comprobar la versión de fnm
     ```bash
