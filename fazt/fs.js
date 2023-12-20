@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require('fs')
 
 // ✅ SYNC
 // raw
@@ -27,34 +27,34 @@ const fs = require("fs");
 // });
 
 // ❌ calback hell
-fs.readFile("./data/first.txt", "utf-8", (error, data) => {
+fs.readFile('./data/first.txt', 'utf-8', (error, data) => {
   // validating the error
   if (error) {
-    console.log(error);
+    console.log(error)
   }
 
-  console.log(data.toString());
+  console.log(data.toString())
 
-  fs.readFile("./data/second.txt", "utf-8", (error, data) => {
+  fs.readFile('./data/second.txt', 'utf-8', (error, data) => {
     // validating the error
     if (error) {
-      console.log(error);
+      console.log(error)
     }
 
-    console.log(data.toString());
+    console.log(data.toString())
 
-    fs.writeFile("./data/newFile.txt", "nuevo archivo XD", (err, data) => {
+    fs.writeFile('./data/newFile.txt', 'nuevo archivo XD', (err, data) => {
       if (err) {
-        console.log(err);
+        console.log(err)
       }
-      console.log(data);
+      console.log(data)
 
-      fs.writeFile("./data/newFile2.txt", "nuevo archivo XD", (err, data) => {
+      fs.writeFile('./data/newFile2.txt', 'nuevo archivo XD', (err, data) => {
         if (err) {
-          console.log(err);
+          console.log(err)
         }
-        console.log(data);
-      });
-    });
-  });
-});
+        console.log(data)
+      })
+    })
+  })
+})

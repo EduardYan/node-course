@@ -1,7 +1,6 @@
 // ✅ PROMISES
 
-const { readFile } = require("fs");
-
+const { readFile } = require('fs')
 
 // 🥉 SYNC
 // readFile("./data/first.txt", "utf-8", (e, data) => {
@@ -49,14 +48,13 @@ const { readFile } = require("fs");
 //   });
 // };
 
-
 // 🥇 TRANSFORM CALLBACK TO PROMISE
-const { promisify } = require("util");
+const { promisify } = require('util')
 // convirtiendo de callback a promesa
-const readFilePromise = promisify(readFile);
+const readFilePromise = promisify(readFile)
 
 // la funcion que contenga await debe tener async
-async function read() {
+async function read () {
   // try catch para manejar los errores
   try {
     // todo esto es asyncrono pero con await se maneja como sincrono
@@ -70,17 +68,17 @@ async function read() {
     // console.log(result3);
     // console.log(result4);
 
-    const result = await readFilePromise("./data/first.txt", "utf-8");
-    const result2 = await readFilePromise("./data/second.txt", "utf-8");
-    const result3 = await readFilePromise("./data/third.txt", "utf-8");
-    const result4 = await readFilePromise("./data/four.txt", "utf-8");
-    console.log(result);
-    console.log(result2);
-    console.log(result3);
-    console.log(result4);
+    const result = await readFilePromise('./data/first.txt', 'utf-8')
+    const result2 = await readFilePromise('./data/second.txt', 'utf-8')
+    const result3 = await readFilePromise('./data/third.txt', 'utf-8')
+    const result4 = await readFilePromise('./data/four.txt', 'utf-8')
+    console.log(result)
+    console.log(result2)
+    console.log(result3)
+    console.log(result4)
   } catch (error) {
-    console.log(error);
+    console.log(error)
   }
 }
 
-read();
+read()

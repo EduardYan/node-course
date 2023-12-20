@@ -8,7 +8,7 @@
   "author": "EduardYan",
   "license": "MIT",
   "eslintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
+    "extends": "standard"
   },
   "dependencies": {
     "colors": "1.4.0",

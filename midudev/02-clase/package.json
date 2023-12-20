@@ -1,0 +1,20 @@
+{
+  "name": "02-clase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.http.js",
+  "scripts": {
+    "dev:1": "nodemon 1.https.js",
+    "dev:2": "nodemon 2.routing.js",
+    "dev:3": "nodemon 3.express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.2"
+  }
+}
